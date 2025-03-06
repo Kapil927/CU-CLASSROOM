@@ -1,9 +1,9 @@
 import { Github } from "lucide-react";
-import { Command } from 'lucide-react';
+import { PhoneCall } from 'lucide-react';
 
 const App = () => {
   return (
-    <Command />
+    <PhoneCall />
   );
 };
 
@@ -25,6 +25,20 @@ export const Sidebar = () => {
       </div>
 
       <div className="aspect-square flex flex-col gap-1">
+      <div className="aspect-square flex flex-col gap-1">
+        <Hint label="Connect" side="right" align="start" sideOffset={18}>
+          <a
+            href={links.cuRoom}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="bg-slate-600 h-full w-full flex items-center justify-center rounded-md opacity-60 hover:opacity-100 transition"
+          >
+            
+            <PhoneCall className="text-white h-5 w-5"/>
+          </a>
+        </Hint>
+      </div>
+
         <Hint label="Source Code" side="right" align="start" sideOffset={18}>
           <a
             href={links.sourceCode}

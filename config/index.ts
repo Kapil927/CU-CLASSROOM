@@ -47,4 +47,5 @@ export const siteConfig: Metadata = {
 
 export const links = {
   sourceCode: "https://github.com/Kapil927/CU-CLASSROOM",
+  cuRoom: "https://cu-room.vercel.app/",
 } as const;
