@@ -46,5 +46,5 @@ export const siteConfig: Metadata = {
 } as const;
 
 export const links = {
-  sourceCode: "https://github.com/sanidhyy/miro-clone",
+  sourceCode: "https://github.com/Kapil927/CU-CLASSROOM",
 } as const;
