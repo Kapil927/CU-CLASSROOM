@@ -1,5 +1,6 @@
 import { Github } from "lucide-react";
 import { PhoneCall } from 'lucide-react';
+import { Cpu } from 'lucide-react';
 
 const App = () => {
   return (
@@ -25,6 +26,19 @@ export const Sidebar = () => {
       </div>
 
       <div className="aspect-square flex flex-col gap-1">
+      <div className="aspect-square flex flex-col gap-1">
+        <Hint label="AI Help" side="right" align="start" sideOffset={18}>
+          <a
+            href={links.gpt}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="bg-slate-600 h-full w-full flex items-center justify-center rounded-md opacity-60 hover:opacity-100 transition"
+          >
+            
+            <Cpu className="text-white h-5 w-5"/>
+          </a>
+        </Hint>
+      </div>        
       <div className="aspect-square flex flex-col gap-1">
         <Hint label="Connect" side="right" align="start" sideOffset={18}>
           <a
