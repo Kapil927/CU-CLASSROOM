@@ -91,7 +91,7 @@ export const Sidebar = () => {
         >           
           <div className="flex">
           <div
-        className=" flex flex-row-reverse cursor-pointer text-white text-xl"
+        className=" cursor-pointer text-white text-xl"
         onClick={() => setIsOpen(false)}>
         ✖
       </div>
