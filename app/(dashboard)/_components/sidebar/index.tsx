@@ -88,13 +88,15 @@ export const Sidebar = () => {
           exit={{ x: "-100%", opacity: 0 }}
           transition={{ duration: 0.5 }}
           className="fixed top-0 left-0 h-full w-80 bg-gray-800 text-white shadow-lg p-4 flex flex-col space-y-4"
-        >           <div
+        >           
+          <div className="flex">
+          <div
         className=" flex flex-row-reverse cursor-pointer text-white text-xl"
-        onClick={() => setIsOpen(false)}
-      >
+        onClick={() => setIsOpen(false)}>
         ✖
       </div>
           <Image src="/cu2.png" alt="CU Logo" width={260} height={500} className="mb-4" />
+          </div>
           <div className="flex justify-between items-center">
             <h2 className="text-lg font-semibold">Developers</h2>
  
