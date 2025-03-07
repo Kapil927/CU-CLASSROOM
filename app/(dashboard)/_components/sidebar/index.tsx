@@ -89,7 +89,7 @@ export const Sidebar = () => {
           transition={{ duration: 0.5 }}
           className="fixed top-0 left-0 h-full w-80 bg-gray-800 text-white shadow-lg p-4 flex flex-col space-y-4"
         >           
-          <div className="flex">
+          <div className="flex justify-between">
           <Image src="/cu2.png" alt="CU Logo" width={260} height={500} className="mb-4" />
           <div
         className=" cursor-pointer text-white text-xl"
