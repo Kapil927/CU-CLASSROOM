@@ -94,7 +94,7 @@ export const Sidebar = () => {
       >
         ✖
       </div>
-          <Image src="/cu2.png" alt="CU Logo" width={280} height={700} className="mb-4" />
+          <Image src="/cu2.png" alt="CU Logo" width={260} height={500} className="mb-4" />
           <div className="flex justify-between items-center">
             <h2 className="text-lg font-semibold">Developers</h2>
  
@@ -138,7 +138,7 @@ export const Sidebar = () => {
               <tbody>
                 <tr>
                   <td className="border border-gray-600 px-4 py-2">E14843</td>
-                  <td className="border border-gray-600 px-4 py-2">Navneet</td>
+                  <td className="border border-gray-600 px-4 py-2">Er. Navneet</td>
                 </tr>
               </tbody>
             </table>
@@ -153,11 +153,11 @@ export const Sidebar = () => {
               <tbody>
                 <tr>
                   <td className="border border-gray-600 px-4 py-2">E12930</td>
-                  <td className="border border-gray-600 px-4 py-2">Shivali Devi</td>
+                  <td className="border border-gray-600 px-4 py-2">Er. Shivali Devi</td>
                 </tr>
                 <tr>
                   <td className="border border-gray-600 px-4 py-2">E16835</td>
-                  <td className="border border-gray-600 px-4 py-2">Rashmi</td>
+                  <td className="border border-gray-600 px-4 py-2">Er. Rashmi</td>
                 </tr>
               </tbody>
             </table>
