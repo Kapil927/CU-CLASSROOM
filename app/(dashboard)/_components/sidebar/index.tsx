@@ -40,7 +40,7 @@ export const Sidebar = () => {
             rel="noreferrer noopener"
             className="bg-slate-600 h-full w-full flex items-center justify-center rounded-md opacity-60 hover:opacity-100 transition"
           >
-            
+
             <Cpu className="text-white h-5 w-5"/>
           </a>
         </Hint>

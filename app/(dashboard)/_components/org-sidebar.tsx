@@ -59,7 +59,7 @@ export const OrgSidebar = () => {
         >
           <Link href="/">
             <LayoutDashboard className="h-4 w-4 mr-2" />
-            Team boards
+            Class Boards
           </Link>
         </Button>
 
