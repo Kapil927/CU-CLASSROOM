@@ -101,6 +101,9 @@ export const Sidebar = () => {
               placeholder="Type a message..." 
               value={input} 
               onChange={(e) => setInput(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") handleSendMessage();
+              }}
               className="w-full p-2 bg-gray-700 text-white rounded focus:outline-none"
             />
             <button onClick={handleSendMessage} className="ml-2 bg-blue-600 px-3 py-1 rounded">Send</button>
