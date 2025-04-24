@@ -218,9 +218,9 @@ export const Sidebar = () => {
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <td className="border border-gray-600 px-4 py-2">E12930</td>
-                  <td className="border border-gray-600 px-4 py-2">Er. Shivali Devi</td>
+                <tr>   
+                  <td className="border border-gray-600 px-4 py-2">E12859</td>
+                  <td className="border border-gray-600 px-4 py-2">Monika Anand</td>
                 </tr>
                 <tr>
                   <td className="border border-gray-600 px-4 py-2">E16835</td>
