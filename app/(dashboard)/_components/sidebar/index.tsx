@@ -43,7 +43,7 @@ export const Sidebar = () => {
         bye: "Goodbye! Have a great day!",
         "what is this platform": "CU Classroom is an advanced AI-powered online education platform designed to enhance virtual learning and collaboration. It provides an interactive environment where students and teachers can engage in real-time, ensuring a seamless online education experience.",
         "who is my supervisor": "Er. Navneet (E14843)",
-        "who are my evaluation panelists":  "Er. Shivali Devi (E12930) & Er. Rashmi (E16835)",
+        "who are my evaluation panelists":  "Monika Anand (E12859) & Rashmi (E16835)",
         "who developed you":  "CU Classroom was proudly developed by 2nd-year students of Chandigarh University: Hemant Dhaka , Vishal , Ronak Yadav, Kapil Thakur"
       };
       const lowerInput = input.toLowerCase();
